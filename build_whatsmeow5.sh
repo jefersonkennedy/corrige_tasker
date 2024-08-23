@@ -14,6 +14,7 @@ TMP_DIR="$(mktemp -d)"
 cd "$TMP_DIR"
 
 git clone --depth 1 https://github.com/jefersonkennedy/corrige_erro_whatsmeow
+mv corrige_erro_whatsmeow whatsmeow
 
 clear 2>/dev/null
 
